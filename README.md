@@ -5,7 +5,7 @@ wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.17.11.tar.xz
 ```
 2) Распаковал
 ```
-`tar -xvf linux-4.17.11.tar.xz`
+tar -xvf linux-4.17.11.tar.xz
 ```
 3) Настроил ядро с использованием следующих параметров конфигурации в среде CentOS 7
 ```
@@ -41,6 +41,3 @@ make modules_install
 ```
 reboot
 ```
-
-## Результат работы
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
